@@ -7,7 +7,7 @@ fun main () {
         print("Digite uma idade: ")
         val idade = readln().toInt()
 
-        if (idade <= 20 && idade >=1 ){
+        if (idade in 1..21){
             cont20++
         }else if(idade >= 50) {
             cont50++
