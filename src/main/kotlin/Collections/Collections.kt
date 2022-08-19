@@ -20,6 +20,7 @@ fun main() {
             3 -> updateProduto()
             4 -> exibir()
             5 -> break
+            else -> print("Opcao Invalida!!")
         }
     }
 }
