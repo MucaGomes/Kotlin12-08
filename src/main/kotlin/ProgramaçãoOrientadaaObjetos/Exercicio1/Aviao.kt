@@ -7,4 +7,6 @@ class Aviao (
     val empresa: String
 
     ){
+
+    var dasksakdak: String = ""
 }
