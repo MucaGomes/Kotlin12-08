@@ -22,7 +22,10 @@ class Cliente(
     }
 
     fun removerProduto (produto : String) {
-        listaDeCompras.remove(produto)
+
+        if (listaDeCompras.contains(produto)){
+            listaDeCompras.remove(produto)
+        }
     }
 
     fun exibirProdutos() {
@@ -32,7 +35,7 @@ class Cliente(
     }
 
     private fun verificarString () {
-        if (nome == " ") {
+        if (nome.isBlank()) {
             throw Exception("Não é permitido caracteres especiais ou numeros , nem nome vazio.")
         }
     }
