@@ -5,12 +5,12 @@ abstract class Animal(
     var idade: Int
     ){
 
-    open fun emitirSom(): String {
-        return ""
+    open fun emitirSom() {
+        print("som")
     }
 
-    open fun correr(): String {
-        return ""
+    open fun correr() {
+        print("correr")
     }
 
 }

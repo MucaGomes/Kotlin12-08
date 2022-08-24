@@ -5,12 +5,12 @@ class Cachorro(
     idade: Int,
     var cor: String,
 ) : Animal(nome, idade) {
-    override fun emitirSom(): String {
-        return "AuAu, morde!"
+    override fun emitirSom() {
+        print("Auau")
     }
 
-    override fun correr(): String {
-        return "Correndo como um cachorro , lingua pra fora e esbarrando em todos"
+    override fun correr() {
+        print("Correndo como um dog")
     }
 }
 

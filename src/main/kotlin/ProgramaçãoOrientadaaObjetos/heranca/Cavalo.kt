@@ -5,11 +5,11 @@ class Cavalo(
     idade: Int,
     var cor: String): Animal(nome, idade){
 
-     override fun emitirSom(): String {
-        return "Cavalo: Hiin in in"
+     override fun emitirSom() {
+        print("Inha rara")
      }
 
-    override fun correr(): String {
-        return "Correndo como um cavalo Hiin in in!!!! "
+    override fun correr() {
+        print("galopando")
     }
 }
