@@ -8,8 +8,6 @@ package collections.Matrizes
 
 fun main() {
 
-
-
     val linha1 = mutableListOf<Int>(0, 0, 0)
     val linha2 = mutableListOf<Int>(0, 0, 0)
     val linha3 = mutableListOf<Int>(0, 0, 0)
