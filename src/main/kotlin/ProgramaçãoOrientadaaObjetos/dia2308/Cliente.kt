@@ -13,6 +13,9 @@ class Cliente(
 
     private var listaDeCompras = mutableListOf<String>()
 
+    val listaExibirTest = listaDeCompras
+
+
     init {
         verificarString()
     }

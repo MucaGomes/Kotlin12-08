@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="programaçãoorientadaaobjetos.dia2308.ClienteTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-08-25T15:04:21" hostname="DESKTOP-AE50AQ6" time="0.038">
+  <properties/>
+  <testcase name="seiLa()" classname="programaçãoorientadaaobjetos.dia2308.ClienteTest" time="0.031"/>
+  <testcase name="removerProduto()" classname="programaçãoorientadaaobjetos.dia2308.ClienteTest" time="0.001"/>
+  <testcase name="addProduto()" classname="programaçãoorientadaaobjetos.dia2308.ClienteTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
